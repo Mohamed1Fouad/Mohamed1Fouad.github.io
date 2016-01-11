@@ -38,7 +38,9 @@ h5,
 h6{
   font-family: "Roboto",sans-serif;
 }
-
+.social-icons{
+	padding-right:20px;
+}
 
 .custom-nav li a{
   font-family: "Roboto",sans-serif;
@@ -124,7 +126,7 @@ nav .brand-logo img {
 
 
 #home .overlay-section {
-  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  background: rgba(17, 66, 93, 0.39) none repeat scroll 0 0;
   height: 100%;
   width: 100%;
 }
@@ -133,7 +135,6 @@ nav .brand-logo img {
 .home-inner {
   display: inline;
   float: left;
-  padding: 57px 100px;
   text-align: center;
   position: relative;
   width: 100%;
@@ -153,7 +154,6 @@ nav .brand-logo img {
   color: #fff;
   font-size: 18px;
   font-weight: 300;
-  margin-bottom: 38px;
   text-transform: uppercase;
 }
 
@@ -200,6 +200,7 @@ nav .brand-logo img {
   height: 130px;
   margin: 0 auto;
   width: 140px;
+  border-radius: 50%;
 }
 
 
@@ -1890,7 +1891,7 @@ textarea.materialize-textarea {
 @media(max-width:767px ){
 
   nav .brand-logo img {height: 40px; margin-top: 12px;}
-  .home-inner { padding: 10px;}
+  .home-inner { padding: 0;}
   .home-title {font-size: 35px;}
   .single-facts {padding: 15px;}
   .counter {font-size: 40px;}
